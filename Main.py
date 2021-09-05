@@ -4,6 +4,7 @@ import requests as req
 import argparse
 import re
 import os
+import sys
 
 url_to_match = 'https://lycees.netocentre.fr/moodle/course/view.php?id='
 url_to_find = 'https://lycees.netocentre.fr/moodle/mod/resource/view.php?id='
